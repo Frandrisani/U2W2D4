@@ -108,23 +108,41 @@
       <!-- -------------- -->
       <!-- * DIV CON ALL'INTERNO IMG PROFILO E IMG NOTIFICA -->
       <div>
-        <img src="./screenassets/assets/avatar-1.jpg" alt="" width="50px" />
+        <img
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+          class="rounded-circle me-3"
+          src="./screenassets/assets/avatar-1.jpg"
+          alt="profilo"
+          width="50px"
+        />
       </div>
     </nav>
+    <div
+      class="collapse z-3 position-nav top-0 end-0 rounded-3"
+      id="collapseExample"
+    >
+      <div class="card card-body">
+        Some placeholder content for the collapse component. This panel is hidde
+      </div>
+    </div>
     <!-- * FINE NAVBAR -->
     <!-- -------------- -->
     <!-- * INIZIO HERO -->
     <section id="hero" class="container-fluid bg-primary">
       <div class="row align-items-center">
         <div class="col ms-5">
-          <h3>Welcome Web Students</h3>
-          <p>
+          <h3 class="fs-1 text-light">Welcome Web Students</h3>
+          <p class="text-light">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nam
             eius provident reprehenderit magni itaque, beatae cum, voluptatem
           </p>
           <div>
-            <button class="btn btn-success">Browse courses</button>
-            <button class="btn btn-light">Are you Istructor?</button>
+            <button class="btn btn-success py-2 me-2">Browse courses</button>
+            <button class="btn btn-light py-2 ms-2">Are you Instructor?</button>
           </div>
         </div>
         <div class="col">
@@ -136,26 +154,26 @@
     <!-- -------------- -->
     <!-- * INIZIO ROW UNDER HERO -->
     <section id="sectionUnderHero" class="container">
-      <div class="row">
-        <div class="col">
-          <div>logo</div>
+      <div class="row mt-4">
+        <div class="col d-flex align-items-center">
+          <div><i class="bi bi-camera-video text-warning me-3"></i></div>
           <div>
-            <p>30,000 online cursers</p>
-            <p>Lorem ipsum dolor sit</p>
+            <p class="m-0 fw-bolder">30,000 online cursers</p>
+            <p class="m-0">Lorem ipsum dolor sit</p>
           </div>
         </div>
-        <div class="col">
-          <div>logo</div>
+        <div class="col d-flex align-items-center">
+          <div><i class="bi bi-person text-warning me-3"></i></div>
           <div>
-            <p>30,000 online cursers</p>
-            <p>Lorem ipsum dolor sit</p>
+            <p class="m-0 fw-bolder">30,000 online cursers</p>
+            <p class="m-0">Lorem ipsum dolor sit</p>
           </div>
         </div>
-        <div class="col">
-          <div>logo</div>
+        <div class="col d-flex align-items-center">
+          <div><i class="bi bi-clock text-warning me-3"></i></div>
           <div>
-            <p>30,000 online cursers</p>
-            <p>Lorem ipsum dolor sit</p>
+            <p class="m-0 fw-bolder">30,000 online cursers</p>
+            <p class="m-0">Lorem ipsum dolor sit</p>
           </div>
         </div>
       </div>
@@ -834,10 +852,24 @@
         </div>
       </div>
     </section>
+    <footer class="d-flex justify-content-between">
+      <div class="ms-4">
+        <p id="copy"></p>
+      </div>
+      <div class="me-4">
+        <ul class="list-inline">
+          <li class="list-inline-item">Privacy</li>
+          <li class="list-inline-item">Terms</li>
+          <li class="list-inline-item">Feedback</li>
+          <li class="list-inline-item">Support</li>
+        </ul>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="myScript.js"></script>
   </body>
 </html>

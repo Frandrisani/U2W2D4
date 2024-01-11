@@ -1,1 +1,12 @@
+@import "scss/variables.scss";
+@import "scss/utilities.scss";
+
+$position-nav: 68px;
+
+$position-values: (
+  "nav": $position-nav,
+);
+
+$position-values: map-merge($position-values, $position-values);
+
 @import "scss/bootstrap.scss";
