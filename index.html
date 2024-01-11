@@ -114,14 +114,17 @@
     <!-- * FINE NAVBAR -->
     <!-- -------------- -->
     <!-- * INIZIO HERO -->
-    <section id="hero" class="container">
-      <div class="row">
-        <div class="col">
-          <h3>a</h3>
-          <p>aaaa</p>
+    <section id="hero" class="container-fluid bg-primary">
+      <div class="row align-items-center">
+        <div class="col ms-5">
+          <h3>Welcome Web Students</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nam
+            eius provident reprehenderit magni itaque, beatae cum, voluptatem
+          </p>
           <div>
-            <button>aaa</button>
-            <button>aaa</button>
+            <button class="btn btn-success">Browse courses</button>
+            <button class="btn btn-light">Are you Istructor?</button>
           </div>
         </div>
         <div class="col">
@@ -161,11 +164,10 @@
     <!-- -------------- -->
     <!-- * INIZIO ARTICOLI-->
     <section id="sezioneArticoli" class="container">
-      <div class="row">
+      <div class="row my-5">
         <h2>Racommended to you</h2>
-        <div class="col-2"></div>
-        <div class="col-2">
-          <div class="card" style="width: 18rem">
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
             <img
               src="./screenassets/assets/course-graphql.jpg"
               class="card-img-top"
@@ -177,27 +179,35 @@
                 optio alias nobis quas saepe
               </p>
               <div id="star" class="d-flex">
-                <div>
+                <div class="me-2">
                   <i class="bi bi-star-fill text-warning"></i>
                   <i class="bi bi-star-fill text-warning"></i>
                   <i class="bi bi-star-fill text-warning"></i>
                   <i class="bi bi-star-fill text-warning"></i>
                   <i class="bi bi-star-fill text-warning"></i>
                 </div>
-                <div>
+                <div class="me-2">
                   <p class="text-warning">5</p>
                 </div>
                 <div>
                   <p>(1.000)</p>
                 </div>
               </div>
-              <div id="prezzo" class="d-flex">
-                <div><p>$500</p></div>
-                <div><p>$600</p></div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
               </div>
-              <div id="autoreDelCorso" class="d-flex">
-                <div class="d-flex">
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
                   <img
+                    class="rounded-circle me-2"
                     src="./screenassets/assets/avatar-2.jpg"
                     alt="avatar"
                     width="30px"
@@ -211,13 +221,618 @@
             </div>
           </div>
         </div>
-        <div class="col-2"></div>
-        <div class="col-2"></div>
-        <div class="col-2"></div>
-        <div class="col-2"></div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row"></div>
-      <div class="row"></div>
+      <div class="row my-5">
+        <h2>Most popular</h2>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <h2>Trending</h2>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="./screenassets/assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="articol"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                optio alias nobis quas saepe
+              </p>
+              <div id="star" class="d-flex">
+                <div class="me-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="me-2">
+                  <p class="text-warning">5</p>
+                </div>
+                <div>
+                  <p>(1.000)</p>
+                </div>
+              </div>
+              <div id="prezzo" class="d-flex align-items-center">
+                <div><p class="fs-4 fw-bold me-2">$500</p></div>
+                <div>
+                  <p class="text-decoration-line-through text-secondary">
+                    $600
+                  </p>
+                </div>
+              </div>
+              <div
+                id="autoreDelCorso"
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded-circle me-2"
+                    src="./screenassets/assets/avatar-2.jpg"
+                    alt="avatar"
+                    width="30px"
+                  />
+                  <p>Nome Cognome</p>
+                </div>
+                <div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
